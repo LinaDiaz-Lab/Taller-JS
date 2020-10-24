@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <title>Parte 1</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <section id="tareas" class="container my-5 p-3 ">
+    <h1 class="text-center">Taller JavaScript</h1>
+    <ol>
+
+      <!--punto 1-->
+      <li> Crear una función que reciba una cadena de texto y busque la palabra "adios", si esta palabra es
+        encontrada debe ser reemplazada por "hasta pronto", y la nueva cadena de texto debe ser
+        retornada.
+      </li>
+
+      <div id="texto" class="my-3">
+        <p class="mx-3 font-weight-bold">Adios nunca significa el final, aveces significa un nuevo comienzo</p>
+      </div>
+      <button onclick="tareas1()" class="btn btn-success  my-2 px-5">Punto 1</button>
+
+      <!--punto 2-->
+      <li>
+        Dada una cadena de texto de dos (2) palabras convertir la primera en minúsculas y la segunda en
+        mayúsculas
+      </li>
+
+      <div class="row m-2">
+        <p class="col-md-6 font-weight-bold" id="p1">Mundo Maravilloso</p>
+
+        <p class="col-md-6 font-weight-bold" id="p2">Mundo Espantoso</p>
+      </div>
+      <button onclick="tareas2()" class="btn btn-success my-2 px-5">Punto 2</button>
+
+      <!--punto 3-->
+      <li>
+        Crear una función que reciba como parámetro una palabra o frase y valide si esta es un palíndromo o no.
+      </li>
+      <form>
+        <div class="form-group">
+          <label for="palindromo">Coloca una palabra:</label>
+          <input type="text" class="form-control" id="palabra" aria-describedby="word">
+          <small id="word" class="form-text text-muted">Colocar alguna palabra que pueda ser un palíndromo.</small>
+        </div>
+      </form>
+      <button onclick="tareas3()" class="btn btn-success my-2 px-5">Punto 3</button>
+
+      <!--punto 4-->
+      <li>
+        Dado un arreglo de frutas (manzana, naranja, limón, uva, piña, fresa), revertir el orden y listar cada
+        una de las frutas anteponiendo su posición en el arreglo. Ejemplo “0 - fresa, 1 - piña, etc.”
+      </li>
+      <ul id="frutas">
+        <li>Manzana</li>
+        <li>Naranja</li>
+        <li>Limon</li>
+        <li>Uva</li>
+        <li>Piña</li>
+        <li>Fresa</li>
+      </ul>
+      <button onclick="tareas4()" class="btn btn-success my-2 px-5">Punto 4</button>
+    
+      <!--punto 5-->
+      <li>
+        Crear una función que ordene de la Z a la A el siguiente arreglo de nombres (Paola, Samy, Tomy,
+        Andrea, Carlos, Miguel, Jorge).
+      </li>
+      <ul id="niños">
+        <li>Paola</li>
+        <li>Samy</li>
+        <li>Tomy</li>
+        <li>Andrea</li>
+        <li>Carlos</li>
+        <li>Miguel</li>
+        <li>Jorge</li>
+      </ul>
+      <button onclick="tareas5()" class="btn btn-success my-2 px-5">Punto 5</button>
+
+      <!--punto 6-->
+      <li>
+        Crear un nuevo arreglo que NO contenga a Paola y Andrea del arreglo del ejercicio anterior.
+      </li>
+
+      <ul id="niñas">
+        <li id="a">Paola</li>
+        <li>Samy</li>
+        <li>Tomy</li>
+        <li id="c">Andrea</li>
+        <li>Carlos</li>
+        <li>Miguel</li>
+        <li>Jorge</li>
+      </ul>
+      <button onclick="tareas6()" class="btn btn-success my-2 px-5">Punto 6</button>
+
+      <!--punto 7-->
+      <li>
+        Crear un programa que organice el siguiente arreglo [3, "Hola", 2, 1, "Mundo", 1.5, 4 + 5] de mayor
+        a menor, priorizando las cadenas de texto.
+      </li>
+
+      <ul id="orden">
+        <li>3</li>
+        <li>Hola</li>
+        <li>2</li>
+        <li>1</li>
+        <li>Mundo</li>
+        <li>1.5</li>
+        <li>4 + 5</li>
+      </ul>
+      <button onclick="tareas7()" class="btn btn-success my-2 px-5">Punto 7</button>
+
+      <!--punto 8-->
+      <li>
+        Crear una aplicación que sugiera nombres aleatorios de mascotas. Se debe crear la interfaz
+        usando HTML y CSS.
+      </li>
+      <div class="d-flex justify-content-center">
+       <a href="../8/8.html"><button type="button" class="btn btn-outline-success p-1 px-5 mt-2">Solucion</button></a> 
+      </div>
+      <!--punto 9-->
+      <li>
+        Crear una aplicación web que muestre el catálogo de productos desde javascript. Además de
+        permitir filtrarlos por clase, ocultando todos excepto los de la clase seleccionada. (NOTA: Se deben
+        buscar y agregar imágenes a los productos.)
+      </li>
+    </ol>
+  </section>
+
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <!--taller-->
+  <script src="./parte1.js"></script>
+</body>
+
+</html>

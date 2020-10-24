@@ -1,0 +1,35 @@
+body {
+    background-image: url(./img/tema-fondo-pantalla-hojas-tropicales_23-2148537122.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ h1{
+     color: rgb(255, 134, 78);
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size:120px;
+ }
+
+ .caja {
+     background-color: white;
+     border-radius: 20px;
+     margin-top: 10% !important;
+ }
+
+ .babybox {
+     border: 2px solid tomato;
+     border-radius: 20px;
+ }
+
+ .poop {
+     font-size: 200px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: rgb(5, 103, 116);
+ }
+
+ .g {
+     width: 600px;
+     font-size: 50px ;
+ }
