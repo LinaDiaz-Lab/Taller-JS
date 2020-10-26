@@ -1,0 +1,47 @@
+body {
+    background-image: url(../img/uwu.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ img {
+   height:75% ;
+ }
+
+ nav{
+     background-color: rgb(248, 151, 167) !important;
+ }
+
+section{
+    border-radius: 30px;
+}
+
+ h1{
+     font-size: 70px;
+     color: rgb(248, 151, 167) ;
+ }
+
+.linea{
+    border-bottom: 3px solid pink;
+}
+
+.gra1{
+    background-color: rgb(248, 86, 113);
+}
+
+.gra2{
+    background-color: rgb(253, 119, 141);
+}
+
+.gra3{
+    background-color: rgb(255, 141, 160);
+}
+.gra4{
+    background-color: rgb(253, 162, 177);
+}
+
+.especifica {
+    font-size: 20px;
+}
